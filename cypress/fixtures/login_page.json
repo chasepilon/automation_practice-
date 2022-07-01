@@ -1,0 +1,18 @@
+{  
+    "create_new": {
+        "email_field": "#email_create",
+        "submit_button": "button#SubmitCreate > span > .icon-user"
+    },
+
+    "existing_user": {
+        "email_field": "#email",
+        "password_field": "#passwd",
+        "sign_in_button": "#SubmitLogin"
+    },
+
+    "login_header": {
+        "signIn": ".login",
+        "signOut": ".logout",
+        "account_name": ".account"
+    }
+}
