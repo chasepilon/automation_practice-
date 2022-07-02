@@ -1,0 +1,15 @@
+{
+    "account_options": {
+        "orderHistory": "a[title='Orders'] > span",
+        "credits": "a[title='Credit slips'] > span",
+        "addresses": "a[title='Addresses'] > span",
+        "personalInfo": "a[title='Information'] > span",
+        "wishlists": "a[title='My wishlists'] > span",
+        "logo": "img[alt='My Store']",
+        "cart": "a[title='View my shopping cart'] > b"
+    },
+    "order_history": {
+        "topItem": ".first_item ",
+        "historyPrices": ".history_price"
+    }
+}

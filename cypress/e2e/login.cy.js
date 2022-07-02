@@ -1,5 +1,4 @@
-import * as login from '../fixtures/login_creds.json';
-import * as loginPage from '../fixtures/login_page.json';
+import { login, loginPage } from '../fixtures'; 
 
 describe('Login', () => {
   beforeEach(() => {

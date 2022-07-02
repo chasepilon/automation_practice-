@@ -1,0 +1,28 @@
+{
+    "summary": {
+        "lineItem": ".cart_product",
+        "deleteItemIcons": ".icon-trash",
+        "proceedToCheckout": "a[title='Proceed to checkout']"
+    }, 
+    "addresses":
+    {
+        "updateButtons": "a[title='Update']",
+        "addNewAddress": ".address_add.submit",
+        "proceedToCheckout": "button[name='processAddress']"
+    },
+    "shipping": {
+        "deliveryOptions": ".delivery_option.item",
+        "tosCheckbox": "#cgv",
+        "proceedToCheckout": "button[name='processCarrier']"
+    },
+    "payment": {
+        "bankWireOption": ".bankwire",
+        "checkOption": ".cheque",
+        "confirmOrderButton": ".button.btn.btn-default.button-medium"
+    }, 
+    "confirmation": {
+        "navigationTab": ".navigation_page",
+        "pageHeading": ".page-heading",
+        "confirmationBox": ".box"
+    }
+}

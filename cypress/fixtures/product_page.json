@@ -1,0 +1,27 @@
+{
+    "known_product_page": "index.php?id_product=1&controller=product",
+    "pricing_module": {
+        "priceDisplay": "#our_price_display",
+        "quantityField": "#quantity_wanted",
+        "sizingDropdown": "#uniform-group_1",
+        "colorOptions": ".color_pick", 
+        "addToCart": "#add_to_cart",
+        "wishlistButton": "#wishlist_button"
+    },
+    
+    "description_column": {
+        "itemName": "h1[itemprop='name']",
+        "productReference": "#product_reference",
+        "productCondition": "#product_condition",
+        "shortDescription": "#short_description_block",
+        "twitterShare": ".btn.btn-default.btn-twitter",
+        "facebookShare": ".btn.btn-default.btn-facebook", 
+        "googlePlusShare": ".btn.btn-default.btn-google-plus",
+        "pinterestShare": ".btn.btn-default.btn-pinterest"
+    },
+
+    "layer_cart": {
+        "layerCart": "#layer_cart",
+        "proceedToCheckoutButton": "a[title='Proceed to checkout']"
+    }
+}

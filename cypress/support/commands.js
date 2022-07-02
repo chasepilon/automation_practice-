@@ -1,4 +1,4 @@
-import * as loginPage from '../fixtures/login_page.json';
+import { loginPage } from '../fixtures'; 
 
 Cypress.Commands.add('loginKnownUser', (username, password) => {
     cy.get(loginPage.login_header.signIn, { timeout: 1000 }).click();
